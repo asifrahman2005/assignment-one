@@ -1,3 +1,22 @@
+.azeret-mono-google-mama {
+    font-family: 'Azeret Mono', monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1150px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
 .banner-container {
     width: 1440px;
     height: 600px;
@@ -47,3 +66,62 @@
     border: none;
     cursor: pointer;
 }
+
+/* Main-Containt-Start */
+.section-one{
+    margin-top: 100px;
+}
+.about-section{
+    width: 100%;
+}
+.contain-tittle{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contain-tittle h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.container-detalis{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.items{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+.items-detalis{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.items-detalis h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.items-detalis p{
+    font-size: 14px;
+}
+.items-detalis .btnn {
+    font-size: 40px;
+}
+.items-img{
+    height: 250px;
+    width: 400px;
+
+}
+.items-img img{
+    height: 100%;
+    width: 100%;
+}
+/* Main-Containt-Start */
+ 
